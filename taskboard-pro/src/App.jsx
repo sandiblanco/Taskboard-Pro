@@ -1,7 +1,8 @@
 import { TaskBoard } from "./features/tasks/components/TaskBoard"
+import { HTML_TAGS } from "./shared/constants/html-tags.constants"
 
-const MainTag = MAIN;
-const HeadingTag = H1;
+const MainTag = HTML_TAGS.MAIN;
+const HeadingTag = HTML_TAGS.H1;
 
 function App() {
   return (

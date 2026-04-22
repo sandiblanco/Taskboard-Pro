@@ -1,10 +1,11 @@
 import { TASK_UI_TEXT } from "../constants/task-ui.constants"
+import { HTML_TAGS } from "../../../shared/constants/html-tags.constants"
 
-const TitleTag = H3;
-const SectionTag = SECTION;
-const ParagraphTag = P;
-const UnorderedListTag = UL;
-const ListItemTag = LI;
+const TitleTag = HTML_TAGS.H3;
+const SectionTag = HTML_TAGS.SECTION;
+const ParagraphTag = HTML_TAGS.P;
+const UnorderedListTag = HTML_TAGS.UL;
+const ListItemTag = HTML_TAGS.LI;
 
 export function TaskList({ tasks }) {
   return (
